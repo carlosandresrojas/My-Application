@@ -10,7 +10,7 @@ import android.widget.Button;
 public class Main2Activity extends AppCompatActivity implements View.OnClickListener {
 
     private Button inicio;
-    private  Button activity1;
+    private  Button resgistrarme;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,10 +21,10 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
 
     private void initControl() {
         inicio =  ( Button ) findViewById(R.id.ingresar);
-        activity1 = ( Button ) findViewById(R.id.activity1);
+        resgistrarme = ( Button ) findViewById(R.id.resgistrarme);
 
         inicio.setOnClickListener(this);
-        activity1.setOnClickListener(this);
+        resgistrarme.setOnClickListener(this);
     }
 
     @Override
@@ -34,7 +34,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
                 Intent intent = new Intent(v.getContext(), MainActivity.class);
                 startActivityForResult(intent, 0);
                 break;
-            case R.id.activity1:
+            case R.id.registrar:
                 Intent intent2 = new Intent(v.getContext(), MainActivity.class);
                 startActivityForResult(intent2, 0);
                 break;

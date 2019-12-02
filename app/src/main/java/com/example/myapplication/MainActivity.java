@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     private void initControl () {
         ingresar = ( Button ) findViewById(R.id.ingresar);
-        registrar = ( TextView ) findViewById(R.id.registar);
+        registrar = ( TextView ) findViewById(R.id.registrar);
         registro = ( Button ) findViewById(R.id.regis);
 
         usuario = findViewById(R.id.usua);
@@ -66,8 +66,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivityForResult(intent, 0);
                 break;
 
-            case R.id.registar:
-                Intent intent2 = new Intent(v.getContext(), MainActivity.class);
+            case R.id.registrar:
+                Intent intent2 = new Intent(v.getContext(), Main2Activity.class);
                 startActivityForResult(intent2, 0);
                 break;
             case R.id.regis:

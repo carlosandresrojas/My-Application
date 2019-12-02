@@ -37,15 +37,14 @@
 
             <EditText
                 android:id="@+id/usua"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:paddingRight="100dp"
-                android:gravity="center"
                 android:hint="Usuario"/>
             <EditText
                 android:id="@+id/contra"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:paddingRight="100dp"
                 android:hint="Contraseña"/>
 
@@ -62,7 +61,7 @@
                 android:layout_gravity="center"
                 android:text="registrar"/>
             <TextView
-                android:id="@+id/registar"
+                android:id="@+id/registrar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="¿No tienes cuenta?"
